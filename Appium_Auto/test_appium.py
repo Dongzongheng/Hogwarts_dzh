@@ -93,3 +93,4 @@ class TestAppium:
         self.driver.find_element(MobileBy.XPATH, "//*[@text='必填']").send_keys(username)
         self.driver.find_element(MobileBy.XPATH, "//*[@text='手机号']").send_keys(mobilephone)
         self.driver.find_element(MobileBy.XPATH, "//*[@text='保存']").click()
+
